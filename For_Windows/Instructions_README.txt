@@ -2,7 +2,7 @@ IF USING FIRST TIME
 ->Right click on FreeFi.exe and click run as administrator.
 Follow instructions on screen to set wifi name and password.
 
-->In lan/ethernet settings turn on internet sharing for ethernet(iiserpune).
+->In lan/ethernet settings turn on internet sharing for ethernet/your internet source network.
 
 REGULAR USE
 Right click on adhoc_on_off.exe and click "run as administrator."
