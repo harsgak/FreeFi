@@ -1,33 +1,3 @@
-# FreeFi
-A little application for sharing internet connection over WiFi.
-
-
-
-
-
-
-#Usage
-
-###First time Setting up
-
-* Run **FreeFi.exe** and if UAC window pops up select allow.
-* Follow instructions on screen to set wifi *name* and *password*.
-
-* In lan/ethernet settings turn on internet sharing for ethernet/your internet source network.  <IMPORTANT>
-  [Refer Troubleshooting]
-###REGULAR USE
-* Use **Hotspot_on_off.exe** as on/off switch.
-
-#####About  '*Hotspot_on_off.exe*
-* It is a toggle (on/off) switch. 
-* If hotspot is currently ***on*** it will turn wifi sharing(hotspot) ***off***.
-* If hotspot is currently ***off*** it will turn wifi sharing(hotspot) ***on***.
-
-
-
-^Tricks:
-Pin it to the taskbar for one click access.
-
 ###Troubleshooting
 
 
@@ -45,7 +15,7 @@ Solution :
 #Windows 8/8.1/10
 1 Switch Hotspot onn
 2 Goto "Network Connections"
-3 Right click on Ethernet and click on Properties
+3 Right click on Ethernet(iiserpune.ac.in) and click on Properties
 4 Under Sharing tab click "Allow other network users to connect" checkbox (to tick it)
 5 Set Home networking connection to "Local Area Connection* xx" (The one corresponding to your Hotspot name)
   If it is already set ,repeat 4,5.
