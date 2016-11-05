@@ -1,0 +1,39 @@
+<h1 id="freefi">FreeFi</h1>
+<p>A little application for sharing internet connection over WiFi.</p>
+<h1 id="usage">Usage</h1>
+<h3 id="first-time-setting-up">First time Setting up</h3>
+<ol style="list-style-type: decimal">
+<li>Run <strong>FreeFi.exe</strong> and if UAC window pops up select allow.</li>
+<li><p>Follow instructions on screen to set wifi <em>name</em> and <em>password</em>.</p></li>
+<li><p>In lan/ethernet settings turn on internet sharing for ethernet/your internet source network.<br /> [Refer Troubleshooting-E3]</p></li>
+</ol>
+<h3 id="regular-use">REGULAR USE</h3>
+<ul>
+<li>Use <strong>Hotspot_on_off.exe</strong> as on/off switch.</li>
+</ul>
+<h5 id="about-hotspot_on_off.exe">About '<em>Hotspot_on_off.exe</em>'</h5>
+<ul>
+<li>It is a toggle (on/off) switch.</li>
+<li>If hotspot is currently <strong><em>on</em></strong> it will turn wifi sharing(hotspot) <strong><em>off</em></strong>.</li>
+<li>If hotspot is currently <strong><em>off</em></strong> it will turn wifi sharing(hotspot) <strong><em>on</em></strong>.</li>
+</ul>
+<p>^Tricks: Pin it to the taskbar for one click access.</p>
+<h1 id="troubleshooting">Troubleshooting</h1>
+<p><strong>Error 1-</strong> &quot;The wireless local area network interface is powered down and doesn't support the requested operation&quot;</p>
+<p><strong>Cause</strong> : Self explanatory</p>
+<p><strong>Solution</strong> : Switch on your damn wifi. How else you gonna share?!</p>
+<p><strong>Error 2-</strong> &quot;The wireless local area network interface is currently not in a state to perform that operation&quot;</p>
+<p><strong>Cause</strong> : Its state most probably is OFF.</p>
+<p><strong>Solution</strong> : Switch on your damn wifi. How else you gonna share?</p>
+<p><strong>Error 3-</strong> Connected to FreeFi but no internet on mobile</p>
+<p><strong>Cause 1</strong> : Havent followed step 3 in Setting Up</p>
+<p><strong>Solution</strong> : (For --Windows 8/8.1/10--)</p>
+<ol style="list-style-type: decimal">
+<li>Switch Hotspot onn</li>
+<li>Goto &quot;Network Connections&quot;</li>
+<li>Right click on Ethernet(xxxxxxxxx.ac.in) and click on Properties</li>
+<li>Under Sharing tab click &quot;Allow other network users to connect&quot; checkbox (to tick it)</li>
+<li>Set Home networking connection to &quot;Local Area Connection* xx&quot; (The one corresponding to your Hotspot name) If it is already set ,repeat 4,5.</li>
+</ol>
+<p><strong>Cause 2</strong> :Your Antivirus' firewall is not letting mobile connect to internet.Ex &quot;Bitdefender 2015&quot; may do this by default.</p>
+<p><strong>Solution</strong> :Toggle &quot;Block internet sharing&quot; off. Exact wording depends on the firewall software.</p>

@@ -14,7 +14,7 @@ A little application for sharing internet connection over WiFi.
 2. Follow instructions on screen to set wifi *name* and *password*.
 
 3. In lan/ethernet settings turn on internet sharing for ethernet/your internet source network.  
-  [Refer Troubleshooting]
+  [Refer Troubleshooting-E3]
 
 ###REGULAR USE
 
