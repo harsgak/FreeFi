@@ -6,7 +6,7 @@ A little application for sharing internet connection over WiFi.
 This little app uses windows 'netsh wlan' commands to identify support for hosted networks (hotspots) and
 create + control state of hosted network (hotspot).
 
-Prior to `Windows 10 version 1607` hotspot feature was not made available for use directly in `Windows`. Without resorting to the command line, setting up a hotspot for sharing internet was not possible in these earlier versions of Windoes 10 and for Windows 7,8. This application was created to address this lack of an easy hotspot setting.    
+Prior to `Windows 10 version 1607` hotspot feature was not made available for use directly in `Windows`. Without resorting to the command line, setting up a hotspot for sharing internet was not possible in these earlier versions of Windows 10 and for Windows 7,8. This application was created to address this lack of an easy hotspot setting.    
 
 
 
@@ -25,7 +25,7 @@ Prior to `Windows 10 version 1607` hotspot feature was not made available for us
 
 * Use **Hotspot_on_off.exe** as on/off switch.
 
-About  '*Hotspot_on_off.exe*'
+About  *Hotspot_on_off.exe*
 * It is a toggle (on/off) switch. 
 * If hotspot is currently ***on*** it will turn wifi sharing(hotspot) ***off***.
 * If hotspot is currently ***off*** it will turn wifi sharing(hotspot) ***on***.
