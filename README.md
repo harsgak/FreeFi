@@ -6,6 +6,8 @@ A little application for sharing internet connection over WiFi.
 This little app uses windows 'netsh wlan' commands to identify support for hosted networks (hotspots) and
 create + control state of hosted network (hotspot).
 
+Prior to `Windows 10 version 1607` hotspot feature was not made available for use directly in `Windows`. Without resorting to the command line, setting up a hotspot for sharing internet was not possible in these earlier versions of Windoes 10 and for Windows 7,8. This application was created to address this lack of an easy hotspot setting.    
+
 
 
 
@@ -17,13 +19,13 @@ create + control state of hosted network (hotspot).
 2. Follow instructions on screen to set wifi *name* and *password*.
 
 3. In lan/ethernet settings turn on internet sharing for ethernet/your internet source network.  
-  [Refer Troubleshooting-E3]
+  See [Troubleshooting - Error 3](#troubleshooting)
 
 ### REGULAR USE
 
 * Use **Hotspot_on_off.exe** as on/off switch.
 
-##### About  '*Hotspot_on_off.exe*'
+About  '*Hotspot_on_off.exe*'
 * It is a toggle (on/off) switch. 
 * If hotspot is currently ***on*** it will turn wifi sharing(hotspot) ***off***.
 * If hotspot is currently ***off*** it will turn wifi sharing(hotspot) ***on***.
@@ -47,8 +49,8 @@ Pin it to the taskbar for one click access.
 
 
 **Error 3-**  Connected to FreeFi but no internet on mobile.  
-**Cause 1**  : Havent followed step 3 in [Setting Up](#First-time-Setting-up)  
-**Solution** : (For --Windows 8/8.1/10--)  nd  
+**Cause 1**  : Havent followed step 3 in [Setting Up](#first-time-setting-up)  
+**Solution** : (For --Windows 8/8.1/10--)  
   1. Switch Hotspot onn
   2. Goto "Network Connections"
   3. Right click on Ethernet and click on Properties
@@ -56,6 +58,6 @@ Pin it to the taskbar for one click access.
   5. Set Home networking connection to "Local Area Connection* xx" (The one corresponding to your Hotspot name)
     If it is already set ,repeat 4,5.
 
-**Cause 2**  :Your Antivirus' firewall is not letting mobile connect to internet. Ex "Bitdefender 2015" may do this by default.
+**Cause 2**  :Your Antivirus' firewall is not letting mobile devices to connect to internet through PC. Some antivirus or firewall software may do this by default.  
 **Solution** :Toggle "Block internet sharing"  off. Exact wording depends on the firewall software.
 
