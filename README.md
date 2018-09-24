@@ -1,7 +1,6 @@
 # FreeFi
 A little application for sharing internet connection over WiFi.
 
-
 ## How it works?
 This little app uses windows 'netsh wlan' commands to identify support for hosted networks (hotspots) and
 create + control state of hosted network (hotspot).
@@ -61,3 +60,7 @@ Pin it to the taskbar for one click access.
 **Cause 2**  :Your Antivirus' firewall is not letting mobile devices to connect to internet through PC. Some antivirus or firewall software may do this by default.  
 **Solution** :Toggle "Block internet sharing"  off. Exact wording depends on the firewall software.
 
+## Status
+[![Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive)
+
+Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows
